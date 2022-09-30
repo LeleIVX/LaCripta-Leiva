@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+.navbar{
+    background-color: rgba(222, 219, 219, 0.388);
+    width: 100%;
+    padding: 0;
+    border: 0;
+    height: 50px;
+    text-align: center;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+.logo{
+    font-size: 30px;
+    font-family: 'Nabla', cursive;
+    color: rgb(223, 114, 217);
+    text-shadow: 4px 4px rgb(39, 126, 45);
+    padding: 0px;
+    border: 0;
+    grid-column: 3/7;
+    transform: translate(0,-30px);
+}
+
+.menu{
+    transform: translate(0px,10px);
+}
+.menu ul{
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+    position: relative;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+}
+.menu ul ul li{
+    display: block;
+    width: 150px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.388);
+    transform: translate(-10px,0);
+}
+.menu ul li:hover ul{
+    display: block;
+}
+.menu a:hover{
+    color: rgba(155, 0, 0, 0.717);
+}
+.carrito{
+    grid-column: 8;
+
+    justify-self: end;
+}

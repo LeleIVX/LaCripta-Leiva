@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+Footer{
+    color: rgba(51, 163, 62, 0.858);
+    background-color: rgba(61, 58, 58, 0.626);
+    margin: 0px;
+    border: 0px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    text-align: left;     
+}
+
+ul li a:link{
+    color: violet;
+}
+ul li a:visited{
+    color: violet;
+}
+
+ul li a:hover{
+    color: grey;
+}
